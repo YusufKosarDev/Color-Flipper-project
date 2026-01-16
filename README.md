@@ -34,3 +34,6 @@ Building this project helped me strengthen my fundamentals in:
 * **DOM Manipulation:** Understanding how to target and modify HTML elements and background styles using JavaScript.
 * **Logic Building:** Mastering `Math.random()` and `Math.floor()` to pick items from arrays or generate codes.
 * **Event Handlers:** Learning how to trigger functions based on user interactions like clicks.
+
+
+🚀 Live Demo: 
