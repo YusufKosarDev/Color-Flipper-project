@@ -36,4 +36,4 @@ Building this project helped me strengthen my fundamentals in:
 * **Event Handlers:** Learning how to trigger functions based on user interactions like clicks.
 
 
-🚀 Live Demo: 
+🚀 Live Demo: https://yusufkosardev.github.io/Color-Flipper-project/
