@@ -3,24 +3,63 @@
 <head>
     <title>Color Flipper</title>
     <style>
-       #green {
-        background-color: green;
-       }
+      body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-family: "Segoe UI", sans-serif;
+    background:#1e1e2f;
+    color:white;
+}
 
-       #red {
-        background-color: red;
-       }
+h3{
+    font-size:2.5rem;
+    margin-bottom:30px;
+    letter-spacing:2px;
+}
 
-       #blue {
-        background-color: blue;
-       }
+button{
+    border:none;
+    border-radius:12px;
+    width:120px;
+    height:45px;
+    margin:10px;
+    font-size:1rem;
+    font-weight:600;
+    color:white;
+    cursor:pointer;
+    transition: all 0.25s ease;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.4),
+                -5px -5px 15px rgba(255,255,255,0.05);
+}
 
-       button {
-        border-radius: 5px;
-        width: 100px;
-        height: 40px;
-        margin: 5px;
-       }
+#green{
+    background: linear-gradient(145deg,#2ecc71,#27ae60);
+}
+
+#red{
+    background: linear-gradient(145deg,#ff4b4b,#c0392b);
+}
+
+#blue{
+    background: linear-gradient(145deg,#3498db,#1f6fb2);
+}
+
+button:last-child{
+    background: linear-gradient(145deg,#9b59b6,#6c3483);
+}
+
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 8px 8px 20px rgba(0,0,0,0.5);
+}
+
+button:active{
+    transform: scale(0.95);
+}
     </style>
 </head>
 <body>
@@ -31,4 +70,5 @@
        <button onclick="randomColor()">Random</button>
        <script src="index.js"></script>
 </body>
+
 </html>
